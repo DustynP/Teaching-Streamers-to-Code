@@ -7,14 +7,14 @@ LEVEL 1 CHALLENGE - HAPPY PRIDE MONTH
 # This is an "import", ignore this for now, you're too hot and rich to understand this.
 import time
 from rich import print
-
+#Create Variables to define ANSI escape code colors
 DefaultColor = "\033[0m"
 Blue = "\033[94m"
 Red = "\033[91m"
 Purple = "\033[95m"
 Green = "\033[92m"
 Yellow = "\033[93m"
-
+#Loop
 while True:
     print(Blue + "Hello World")
     time.sleep(.1)
@@ -29,4 +29,4 @@ while True:
     print(DefaultColor + "Hello World")
     
 
-    pass # TODO - Replace this with your code!
+
